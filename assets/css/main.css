@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('https://fonts.gstatic.com/s/inter/v3/UcCO3Fwr7oR8wKtX4fD8lXK8ur7Uz-XgfSio9Xk0U5M.woff2') format('woff2');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    background-color: rgb(192, 188, 188);
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.header-table {
+    display: table;
+    width: 100%;
+}
+
+.header-table-cell {
+    display: table-cell;
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.header-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.header-content-container {
+    flex-direction: row;
+    align-items: center;
+    user-select: none;
+    display: flex;
+    gap: 10px;
+}
+.click-event:hover {
+    cursor: pointer;
+    opacity: 0.50;
+
+}
+.click-event:active {
+    transform: translateY(2px);
+    transition: transform 0.3s;
+}
+.header-logo {
+    border-radius: 50%;
+    height: 62px;
+    width: 62px;
+}
+
+.header-content {
+    flex-direction: column;
+    display: flex;
+    gap: 3px;     
+}
+
+.header-content > span:nth-child(1) {
+    color: rgb(122, 122, 183);
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+}
+.header-content > span:nth-child(2) {
+    color: rgb(70, 70, 83);
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: rgb(52, 47, 47);
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(37, 120, 120);
+}
+.nav-container {
+    display: flex;
+    gap: 20px;
+
+}
+
+.iletisim-card {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
